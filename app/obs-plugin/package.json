@@ -1,0 +1,16 @@
+{
+    "main": "binding.js",
+    "private": true,
+    "dependencies": {
+      "node-addon-api": "^8.1.0"
+    },
+    "scripts": {
+      "test": "node --napi-modules ./test/test_bindings.js"
+    },
+    "gypfile": true,
+    "name": "obs-plugin",
+    "version": "1.0.0",
+    "description": "OBS bingings.",
+    "author": "Alex Agranovsky",
+    "license": "ISC"
+  }
